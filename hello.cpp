@@ -8,8 +8,13 @@
 #include <iostream>
 using namespace std;
 
+int Add(int a, int b) {
+	return a + b;
+}
+
 int main() {
 	cout << "hello world" << endl;
+	cout << Add(1, 1) << endl;
 
 	return 0;
 }
